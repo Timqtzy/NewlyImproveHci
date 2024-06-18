@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: 'outfit', 'san serif';
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.Pages{
+    width: 100%;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+.container9{
+    width: 100%;
+    height: fit-content;
+}
+
+.navbar-nav a{
+    margin: 0 20px;
+}
+
+.firstPage{
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.container1{
+    height: fit-content;
+    width: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.contentofpage1 h2{
+    font-size: 18px;
+    color: #615EFC;
+}
+.contentofPage1 p{
+    font-size: 12px;
+}
+.contentofPage1 button{
+    font-size: 12px;
+}
+#learnMore-btn{
+    color: #FFFFFF;
+    background-color: #615EFC;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#lappy{
+    width: 75%;
+}
+
+
+
+.container2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px 0;
+}
+.container2 h2{
+    font-size: 1rem;
+}
+.container2 p{
+    font-size: 12px;
+}
+.contentofPage2{
+    margin: 0;
+    text-align: center;
+}
+#choose{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+
+.thirdPage{
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.contentofpage3 h1{
+    font-size: 18px;
+}
+.contentofpage3 p{
+    font-size: 12px;
+}
+
+.forthPage{
+    padding: 40px 0;
+}
+.container4{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+.contentofpage4 h1{
+    font-size: 18px;
+}
+.contentofpage4 p{
+    font-size: 12px;
+}
+.container4 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fifthPage{
+    padding: 20px 0;
+}
+.contentofpage5 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.Container5txt h2{
+    font-size: 18px;
+}
+.Container5txt p{
+    font-size: 12px;
+}
+
+
+.context7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.context7 h1{
+    font-size: 18px;
+}
+.context7 p{
+    font-size: 12px;
+    color: #615EFC;
+}
+
+.container7 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.eightPage{
+    padding: 40px 0;
+}
+
+.student{
+    padding: 50px 0;
+    font-family: 'outfit';
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2), 0 6px 20px 0 rgba(189, 189, 189, 0.19);
+}
+.content8{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contentofpage8 h1{
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 600;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info .studentinfo{
+    margin: 0;
+
+}
+.contenttxt{
+    text-align: center;
+    color: #141414;
+}
+.name{
+    margin: 10px 0;
+}
+.student{
+    margin: 0;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+.star i{
+    color: #eeff00;
+}
+.student:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ninethPage{
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.content9{
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.content9 h1{
+    font-size: 18px;
+}
+
+
+
+footer{
+    background-color: #141414;
+    padding: 40px 0;
+    color: #FFFFFF;
+}
+#logoFooter{
+    width: 50px;
+    height: auto;
+}
+.group-1 h3{
+    font-size: 14px;
+}
+.group-1 p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+#emailFooter{
+    font-size: 8px;
+    padding: 6px;
+    width: 210px;
+    border-radius: 1px;
+    margin-right: 2px;
+    border: none;
+
+}
+#Subscribe-btn{
+    font-size: 8px;
+    padding: 6px;
+    border: none;
+    border-radius: 1px;
+    color: #FFFFFF;
+    background-color: #615EFC;
+}
+
+#container5Img{
+    margin-right: 6px;
+}
+
+.group-2{
+    display: flex;
+    justify-content: space-between;
+}
+.group-2 i{
+    display: none;
+}
+.group-2 h3{
+    font-size: 10px;
+}
+.group-2 p{
+    font-size: 8px;
+}
+
+
+.copyright{
+    background-color: #615EFC;
+    color: #FFFFFF;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.copyrightContent{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    font-size: 4px;
+    margin: 0;
+}
+.terms{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+    .firstPage{
+        height: 250px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .contentofpage1 .h1{
+        font-size: 14px;
+    }
+    .contentofpage1 p{
+        font-size: 12px;
+    }
+    .contentofpage1 button{
+        font-size: 12px;
+        padding: 8px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+        border: none;
+        border-radius: 4px;
+    }
+    #lappy{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container2 h2{
+        font-size: 1rem;
+    }
+    .container2 p{
+        font-size: 12px;
+    }
+    .contentofPage2{
+        margin: 0;
+        text-align: center;
+    }
+    .contentofPage2 img{
+        width: 250px;
+    }
+    
+}
+@media (min-width:768px) {
+    
+}
+@media (min-width:992px) {
+    
+}
+@media (min-width:1200px) {
+    
+}
+@media (min-width:1400px) {
+    .firstPage{
+        height: 100vh;
+        width: auto;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .contentofpage1 .h1 p{
+        font-size: 3rem;
+        color: #615EFC;
+        font-weight: 600;
+    }
+    .contentofpage1 p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .contentofpage1 button{
+        font-size: 16px;
+        padding: 12px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+        border: none;
+        border-radius: 4px;
+    }
+    #lappy{
+        display: revert;
+        width: 100%;
+    }
+    .container2 h2{
+        font-size: 2rem;
+    }
+    .container2 p{
+        font-size: 16px;
+    }
+    .contentofPage2{
+        margin-right: 50px;
+    }
+    
+}
+
+
+
+
+
+
