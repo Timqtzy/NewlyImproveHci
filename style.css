@@ -188,6 +188,7 @@ body{
 }
 .contentofpage8 h1{
     font-size: 18px;
+
     font-family: 'outfit';
     font-weight: 600;
     text-align: center;
@@ -243,7 +244,10 @@ body{
     font-size: 18px;
     color: #615EFC;
 }
-
+.content8 image{
+    width: 100%;
+    opacity: 100%;
+}
 
 
 footer{
@@ -653,37 +657,49 @@ footer{
     
 }
 @media (min-width:1200px) {
-    
-}
-@media (min-width:1400px) {
-    .firstPage{
+
+    .container1{
         height: 100vh;
         width: auto;
-        padding: 50px;
+        padding: 40px 0;
         display: flex;
         align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
         text-align: left;
     }
-    .contentofpage1 .h1 p{
-        font-size: 3rem;
+    .contentofpage1 h2{
+        font-size: 2.5rem;
         color: #615EFC;
-        font-weight: 600;
     }
-    .contentofpage1 p{
-        font-size: 18px;
-        font-weight: 400;
-    }
-    .contentofpage1 button{
+    .contentofPage1 p{
         font-size: 16px;
-        padding: 12px;
+    }
+    .contentofPage1 button{
+        font-size: 16px;
+    }
+    #learnMore-btn{
         color: #FFFFFF;
         background-color: #615EFC;
         border: none;
-        border-radius: 4px;
+        border-radius: 2px;
+        padding: 6px;
+    }
+    
+    .img{
+        width: 50%;
+        display: flex;
+        justify-content: end;
     }
     #lappy{
-        display: revert;
-        width: 100%;
+        width: 75%;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px 0;
     }
     .container2 h2{
         font-size: 2rem;
@@ -692,8 +708,466 @@ footer{
         font-size: 16px;
     }
     .contentofPage2{
-        margin-right: 50px;
+        margin: 0;
+        text-align: left;
     }
+    #choose{
+        width: 250px;
+        margin: 0;
+        margin-left: 40px;
+    }
+    
+    .thirdPage{
+        text-align: left;
+    }
+    .contentofpage3{
+        display: flex;
+        align-items: center;
+    }
+    .contentofpage3 h1{
+        font-size: 2rem;
+        margin: 0;
+        margin-right: 50px;
+        color: #615EFC;
+    }
+    .contentofpage3 p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction: row;
+    }
+    .contentofpage4 h1{
+        font-size: 2rem;
+    }
+    .contentofpage4 p{
+        font-size: 16px;
+    }
+    .container4 img{
+        width: 50%;
+        margin: 0;
+        margin-left: 20px;
+    }
+    
+    .fifthPage{
+        padding: 40px 0;
+    }
+    .contentofpage5 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Container5txt h2{
+        font-size: 1.5rem;
+    }
+    .Container5txt p{
+        font-size: 14px;
+    }
+
+    .context7{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .context7 h1{
+        font-size: 1.5rem;
+    }
+    .context7 p{
+        font-size: 14px;
+        color: #615EFC;
+    }
+    .container7 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .student{
+        padding: 50px 0;
+        font-family: 'outfit';
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px 15px;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2), 0 6px 20px 0 rgba(189, 189, 189, 0.19);
+    }
+    .contentofpage8 h1{
+        font-size: 1.5rem;
+        font-family: 'outfit';
+        font-weight: 600;
+        text-align: center;
+    }
+    .content8 image{
+        width: 100%;
+        opacity: 100%;
+    }
+
+    .ninethPage{
+        background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+    }
+    .content9{
+        padding: 40px 0;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .content9 h1{
+        font-size: 1.5rem;
+        color: #615EFC;
+    }
+    
+
+
+    footer{
+        background-color: #141414;
+        padding: 40px 0;
+        color: #FFFFFF;
+    }
+    .footercontent{
+        display: flex;
+    }
+    #logoFooter{
+        width: 80px;
+        height: auto;
+    }
+    .group-1{
+        width: 50%;
+    }
+    .group-1 h3{
+        font-size: 14px;
+    }
+    .group-1 p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    #emailFooter{
+        font-size: 8px;
+        padding: 6px;
+        width: 210px;
+        border-radius: 1px;
+        margin-right: 2px;
+        border: none;
+    
+    }
+    #Subscribe-btn{
+        font-size: 8px;
+        padding: 6px;
+        border: none;
+        border-radius: 1px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+    }
+    
+    #container5Img{
+        margin-right: 6px;
+    }
+    
+    .group-2{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .group-2 i{
+        display: revert;
+    }
+    .group-2 h3{
+        font-size: 1rem;
+    }
+    .group-2 p{
+        font-size: 12px;
+    }
+    .FollowUs div{
+        display: flex;
+    }
+    .FollowUs i{
+        margin-right: 10px;
+        color: #615EFC;
+    }
+    .copyright{
+        background-color: #615EFC;
+        color: #FFFFFF;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .copyright p{
+        font-size: 12px;
+        margin: 0;
+    }
+    .terms{
+        display: flex;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1400px) {
+    
+    .container1{
+        height: 100vh;
+        width: auto;
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .contentofpage1 h2{
+        font-size: 3.5rem;
+        color: #615EFC;
+    }
+    .SubHeadingp p{
+        font-size: 16px;
+    }
+    .contentofPage1 button{
+        font-size: 16px;
+    }
+    #learnMore-btn{
+        color: #FFFFFF;
+        background-color: #615EFC;
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+    }
+    
+    .img{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    #lappy{
+        width: 100%;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .container2 h2{
+        font-size: 2.5rem;
+    }
+    .container2 p{
+        font-size: 16px;
+    }
+    .contentofPage2{
+        margin: 0;
+        text-align: left;
+    }
+    #choose{
+        width: 350px;
+        margin: 0;
+        margin-left: 40px;
+    }
+    
+    .thirdPage{
+        text-align: left;
+    }
+    .contentofpage3{
+        display: flex;
+        align-items: center;
+    }
+    .contentofpage3 h1{
+        font-size: 3rem;
+        margin: 0;
+        margin-right: 50px;
+        color: #615EFC;
+    }
+    .contentofpage3 p{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction: row;
+    }
+    .contentofpage4 h1{
+        font-size: 2.5rem;
+    }
+    .contentofpage4 p{
+        font-size: 18px;
+    }
+    .container4 img{
+        width: 50%;
+        margin: 0;
+        margin-left: 20px;
+    }
+    
+    .fifthPage{
+        padding: 40px 0;
+    }
+    .contentofpage5 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Container5txt h2{
+        font-size: 2rem;
+    }
+    .Container5txt p{
+        font-size: 15px;
+    }
+
+    .context7{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .context7 h1{
+        font-size: 2rem;
+    }
+    .context7 p{
+        font-size: 16px;
+        color: #615EFC;
+    }
+    .container7 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .student{
+        padding: 50px 0;
+        font-family: 'outfit';
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px 15px;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2), 0 6px 20px 0 rgba(189, 189, 189, 0.19);
+    }
+    .contentofpage8 h1{
+        font-size: 2rem;
+        font-family: 'outfit';
+        font-weight: 600;
+        text-align: center;
+    }
+    .content8 image{
+        width: 100%;
+        opacity: 100%;
+    }
+
+    .ninethPage{
+        background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+    }
+    .content9{
+        padding: 40px 0;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .content9 h1{
+        font-size: 2rem;
+        color: #615EFC;
+    }
+    
+
+
+    footer{
+        background-color: #141414;
+        padding: 40px 0;
+        color: #FFFFFF;
+    }
+    .footercontent{
+        display: flex;
+    }
+    #logoFooter{
+        width: 100px;
+        height: auto;
+    }
+    .group-1{
+        width: 50%;
+    }
+    .group-1 h3{
+        font-size: 18px;
+    }
+    .group-1 p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    #emailFooter{
+        font-size: 16px;
+        padding: 6px;
+        width: 400px;
+        border-radius: 1px;
+        margin-right: 2px;
+        border: none;
+    
+    }
+    #Subscribe-btn{
+        font-size: 16px;
+        padding: 6px;
+        border: none;
+        border-radius: 1px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+    }
+    
+    #container5Img{
+        margin-right: 6px;
+    }
+    
+    .group-2{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .group-2 i{
+        display: revert;
+    }
+    .group-2 h3{
+        font-size: 1rem;
+    }
+    .group-2 p{
+        font-size: 14px;
+    }
+    .FollowUs div{
+        display: flex;
+    }
+    .FollowUs i{
+        margin-right: 10px;
+        color: #615EFC;
+    }
+    .copyright{
+        background-color: #615EFC;
+        color: #FFFFFF;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .copyright p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .terms{
+        display: flex;
+    }
+    
     
 }
 
