@@ -106,6 +106,7 @@ body{
 
 .forthPage{
     padding: 40px 0;
+    background-color: #F3F4F6;
 }
 .container4{
     display: flex;
@@ -125,7 +126,7 @@ body{
 }
 
 .fifthPage{
-    padding: 20px 0;
+    padding: 40px 0;
 }
 .contentofpage5 img{
     width: 100%;
@@ -138,11 +139,15 @@ body{
     font-size: 12px;
 }
 
+.seventhPage{
+    background-color: #F3F4F6;
+    padding: 40px 0;
+}
 
 .context7{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 .context7 h1{
     font-size: 18px;
@@ -186,6 +191,7 @@ body{
     font-family: 'outfit';
     font-weight: 600;
     text-align: center;
+    margin-bottom: 20px;
 }
 .info{
     text-align: center;
@@ -207,8 +213,18 @@ body{
     transition-timing-function: ease-in;
     transition-delay: .1s;
 }
+.student h4{
+    font-size: 18px;
+}
+.student p{
+    font-size: 12px;
+}
+.student h4{
+    font-size: 18px;
+}
 .star i{
     color: #eeff00;
+    font-size: 12px;
 }
 .student:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -225,6 +241,7 @@ body{
 }
 .content9 h1{
     font-size: 18px;
+    color: #615EFC;
 }
 
 
@@ -295,7 +312,7 @@ footer{
     justify-content: space-between;
 }
 .copyright p{
-    font-size: 4px;
+    font-size: 8px;
     margin: 0;
 }
 .terms{
@@ -320,10 +337,11 @@ footer{
 
 @media (min-width:576px) {
     .firstPage{
-        height: 250px;
+        height: fit-content;
         display: flex;
         align-items: center;
         text-align: center;
+
     }
     .contentofpage1 .h1{
         font-size: 14px;
@@ -340,11 +358,7 @@ footer{
         border-radius: 4px;
     }
     #lappy{
-        display: none;
-    }
-    .container2{
-        display: flex;
-        flex-direction: column-reverse;
+        width: 40%;
     }
     .container2 h2{
         font-size: 1rem;
@@ -359,12 +373,283 @@ footer{
     .contentofPage2 img{
         width: 250px;
     }
+
+    /*Done HomePage*/
     
 }
 @media (min-width:768px) {
-    
+
+    /*NONE HERE BROO*/    
 }
 @media (min-width:992px) {
+    .container1{
+        height: fit-content;
+        width: auto;
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .contentofpage1 h2{
+        font-size: 1.5rem;
+        color: #615EFC;
+    }
+    .contentofPage1 p{
+        font-size: 14px;
+    }
+    .contentofPage1 button{
+        font-size: 14px;
+    }
+    #learnMore-btn{
+        color: #FFFFFF;
+        background-color: #615EFC;
+        border: none;
+        border-radius: 2px;
+        padding: 6px;
+    }
+    
+    .img{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    #lappy{
+        width: 75%;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .container2 h2{
+        font-size: 1.5rem;
+    }
+    .container2 p{
+        font-size: 14px;
+    }
+    .contentofPage2{
+        margin: 0;
+        text-align: left;
+    }
+    #choose{
+        width: 250px;
+        margin: 0;
+        margin-left: 40px;
+    }
+    
+    .thirdPage{
+        text-align: left;
+    }
+    .contentofpage3{
+        display: flex;
+        align-items: center;
+    }
+    .contentofpage3 h1{
+        font-size: 1.8rem;
+        margin: 0;
+        margin-right: 50px;
+        color: #615EFC;
+    }
+    .contentofpage3 p{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction: row;
+    }
+    .contentofpage4 h1{
+        font-size: 1.8rem;
+    }
+    .contentofpage4 p{
+        font-size: 14px;
+    }
+    .container4 img{
+        width: 50%;
+        margin: 0;
+        margin-left: 20px;
+    }
+    
+    .fifthPage{
+        padding: 40px 0;
+    }
+    .contentofpage5 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Container5txt h2{
+        font-size: 1.5rem;
+    }
+    .Container5txt p{
+        font-size: 14px;
+    }
+
+    .context7{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .context7 h1{
+        font-size: 1.5rem;
+    }
+    .context7 p{
+        font-size: 14px;
+        color: #615EFC;
+    }
+    .container7 img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .student{
+        padding: 50px 0;
+        font-family: 'outfit';
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px 15px;
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2), 0 6px 20px 0 rgba(189, 189, 189, 0.19);
+    }
+    .contentofpage8 h1{
+        font-size: 1.5rem;
+        font-family: 'outfit';
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .ninethPage{
+        background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+    }
+    .content9{
+        padding: 40px 0;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .content9 h1{
+        font-size: 1.5rem;
+        color: #615EFC;
+    }
+    
+
+
+    footer{
+        background-color: #141414;
+        padding: 40px 0;
+        color: #FFFFFF;
+    }
+    .footercontent{
+        display: flex;
+    }
+    #logoFooter{
+        width: 80px;
+        height: auto;
+    }
+    .group-1{
+        width: 50%;
+    }
+    .group-1 h3{
+        font-size: 14px;
+    }
+    .group-1 p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    #emailFooter{
+        font-size: 8px;
+        padding: 6px;
+        width: 210px;
+        border-radius: 1px;
+        margin-right: 2px;
+        border: none;
+    
+    }
+    #Subscribe-btn{
+        font-size: 8px;
+        padding: 6px;
+        border: none;
+        border-radius: 1px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+    }
+    
+    #container5Img{
+        margin-right: 6px;
+    }
+    
+    .group-2{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .group-2 i{
+        display: revert;
+    }
+    .group-2 h3{
+        font-size: 1rem;
+    }
+    .group-2 p{
+        font-size: 12px;
+    }
+    .FollowUs div{
+        display: flex;
+    }
+    .FollowUs i{
+        margin-right: 10px;
+        color: #615EFC;
+    }
+    .copyright{
+        background-color: #615EFC;
+        color: #FFFFFF;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .copyright p{
+        font-size: 12px;
+        margin: 0;
+    }
+    .terms{
+        display: flex;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 @media (min-width:1200px) {
