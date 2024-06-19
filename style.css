@@ -250,6 +250,39 @@ body{
 }
 
 
+.section1-contact{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+
+.ContactPage{
+    padding: 50px 0;
+}
+.ContactPage h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.MainContainer{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px
+}
+
+.inputContainer{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.MainContainer iframe{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 footer{
     background-color: #141414;
     padding: 40px 0;
@@ -302,7 +335,27 @@ footer{
 .group-2 p{
     font-size: 8px;
 }
-
+.instagram{
+    display: flex;
+    align-items: center;
+}
+.instagram,
+.facebook,
+.twitter,
+.discord,
+.youtube{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.group-2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.FollowUs div{
+    display: flex;
+}
 
 .copyright{
     background-color: #615EFC;
@@ -543,6 +596,41 @@ footer{
     }
     
 
+    .section1-contact{
+        height: 95vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+    }
+    
+    .ContactPage{
+        padding: 50px 0;
+    }
+    .ContactPage h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .MainContainer{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .inputContainer{
+        width: 45%;
+        margin-bottom: 50px;
+    }
+    .MainContainer iframe{
+        width: 45%;
+        height: auto;
+    }
+    
+
+
 
     footer{
         background-color: #141414;
@@ -625,11 +713,72 @@ footer{
     .terms{
         display: flex;
     }
+
+
+
+    footer{
+        background-color: #141414;
+        padding: 40px 0;
+        color: #FFFFFF;
+    }
+    .footercontent{
+        display: flex;
+    }
+    #logoFooter{
+        width: 80px;
+        height: auto;
+    }
+    .group-1{
+        width: 50%;
+    }
+    .group-1 h3{
+        font-size: 14px;
+    }
+    .group-1 p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
     
+    #emailFooter{
+        font-size: 8px;
+        padding: 6px;
+        width: 210px;
+        border-radius: 1px;
+        margin-right: 2px;
+        border: none;
+    
+    }
+    #Subscribe-btn{
+        font-size: 8px;
+        padding: 6px;
+        border: none;
+        border-radius: 1px;
+        color: #FFFFFF;
+        background-color: #615EFC;
+    }
 
-
-
-
+    .group-2{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .group-2 i{
+        display: revert;
+    }
+    .group-2 h3{
+        font-size: 1rem;
+    }
+    .group-2 p{
+        font-size: 12px;
+        margin: 0;
+    }
+    .FollowUs div{
+        display: flex;
+    }
+    .FollowUs i{
+        margin-right: 10px;
+        color: #615EFC;
+    }
 
 
 
@@ -879,6 +1028,7 @@ footer{
     }
     .group-2 p{
         font-size: 12px;
+        margin: 0;
     }
     .FollowUs div{
         display: flex;
@@ -902,7 +1052,15 @@ footer{
     .terms{
         display: flex;
     }
-    
+    .instagram,
+    .facebook,
+    .twitter,
+    .discord,
+    .youtube{
+        display: flex;
+        align-items: center;
+        margin: 8px 0;
+    }
     
 }
 
