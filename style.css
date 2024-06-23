@@ -413,6 +413,9 @@ body{
     font-family: 'outfit';
   
 }
+.news a{
+    margin: 10px 0;
+}
 .news p{
     font-weight: 200;
     color: #424242;
