@@ -25,8 +25,16 @@ body{
     height: fit-content;
 }
 
+.navbar-nav{
+    padding: 10px 0;
+}
 .navbar-nav a{
-    margin: 0 20px;
+    padding: 10px 10px;
+    margin: 2px 0;
+}
+.navbar-nav a:hover{
+    background-color: #a9a7ff;
+    color: white;
 }
 
 .firstPage{
@@ -144,18 +152,32 @@ body{
     padding: 40px 0;
 }
 
+.contentofpage7{
+    display: flex;
+    width: 100%;
+}
+
 .context7{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 .context7 h1{
     font-size: 18px;
+    margin: 10px 0;
 }
 .context7 p{
     font-size: 12px;
     color: #615EFC;
+    margin: 10px 0;
+    cursor: pointer;
 }
+.context7 p a{
+    text-decoration: none;
+}
+
+
 
 .container7 img{
     width: 100%;
@@ -413,9 +435,6 @@ body{
     font-family: 'outfit';
   
 }
-.news a{
-    margin: 10px 0;
-}
 .news p{
     font-weight: 200;
     color: #424242;
@@ -508,7 +527,9 @@ body{
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-
+.news a{
+    margin: 10px 0;
+}
 
 
 /*Contact Done*/
@@ -1026,6 +1047,15 @@ footer{
     /*NONE HERE BROO*/    
 }
 @media (min-width:992px) {
+
+    .navbar-nav{
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        padding: 10px 10px;
+        margin: 10px 2px;
+    }
+    
     .container1{
         height: fit-content;
         width: auto;
