@@ -25,9 +25,7 @@ body{
     height: fit-content;
 }
 
-.navbar-nav{
-    padding: 10px 0;
-}
+
 .navbar-nav a{
     padding: 10px 10px;
     margin: 2px 0;
@@ -1047,10 +1045,7 @@ footer{
     /*NONE HERE BROO*/    
 }
 @media (min-width:992px) {
-
-    .navbar-nav{
-        padding: 10px 0;
-    }
+    
     .navbar-nav a{
         padding: 10px 10px;
         margin: 10px 2px;
