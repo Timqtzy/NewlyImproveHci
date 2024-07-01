@@ -25,7 +25,12 @@ body{
     height: fit-content;
 }
 
-
+.navbar-toggler:focus{
+    box-shadow: none;
+    border-color: #615EFC;
+    border-width: 2px;
+    
+}
 .navbar-nav a{
     padding: 10px 10px;
     margin: 2px 0;
@@ -562,16 +567,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: fit-content;
 }
 .aboutpage2content2{
     text-align: center;
 }
 
 .aboutpage2content2 h1{
-    font-size: 3rem;
+    font-size: 1.3rem;
 }
-
+.aboutpage2content2 p{
+    font-size: 12px;
+}
 
 .aboutPage4{
     padding: 50px 0;
@@ -581,16 +588,22 @@ body{
     width: 100%;
 }
 
+.contentAbout1{
+    padding: 10px;
+}
 
 .dean{
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 80px;
 }
+.imageDean img{
+    width: 100%;
+}
 .teacher img{
-    width: 350px;
+    width: 100%;
     height: auto;
-    margin-right: 20px;
+    
 }
 .teacher div{
     margin: 20px 0;
@@ -604,6 +617,7 @@ body{
 .teacher3,
 .teacher4{
     display: flex;
+    flex-direction: column;
     text-align: left;
     width: 100%;
     border-radius: 10px;
@@ -630,8 +644,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.ClassOfficers{
-    
+#ClassOfficers{
+    width: 100%;
 }
 .StudentCouncil{
     display: flex;
@@ -646,6 +660,8 @@ body{
 }
 
 .aboutpage5 img{
+    width: 100%;
+    height: auto;
     margin: 20px 0;
     transition: ease-in;
     transition-duration: .3s;
@@ -992,6 +1008,138 @@ footer{
     border-bottom-right-radius: 6px;
 }
 
+/*About Page*/
+.aboutPage1{
+    padding: 50px 0;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.aboutpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    text-align: center;
+}
+
+.aboutPage1 h1{
+    color: #615EFC;
+    font-size: 3rem;
+}
+
+.aboutPage1 p{
+    font-size: 16px;
+}
+
+.aboutPage2{
+    padding: 50px 0;
+}
+.aboutpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.aboutpage2content2{
+    text-align: center;
+}
+
+.aboutpage2content2 h1{
+    font-size: 1.5rem;
+}
+
+
+.aboutPage4{
+    padding: 50px 0;
+}
+.aboutpage4{
+    text-align: center;
+    width: 100%;
+}
+
+
+.dean{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+}
+.teacher img{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.teacher div{
+    margin: 20px 0;
+}
+.nameTeacher{
+    font-size: 18px;
+    color: black;
+}
+.contentAbout1{
+    padding: 10px;
+}
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.19);
+}
+
+.teacher1:hover,
+.teacher2:hover,
+.teacher3:hover,
+.teacher4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutPage5{
+    padding: 50px 0;
+}
+.aboutpage5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ClassOfficers{
+    width: 90%;
+}
+.StudentCouncil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: center;
+    
+}
+
+#ClassOfficers{
+    width: 100%;
+ 
+}
+
+.aboutpage5 img{
+    margin: 20px 0;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+}
+.aboutpage5 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(197, 81, 255, 0.2), 0 6px 20px 0 rgba(206, 43, 255, 0.19);
+}
     
 }
 @media (min-width:768px) {
@@ -1176,6 +1324,131 @@ footer{
 }
 .news a{
     margin: 10px 0;
+}
+
+
+/*About Page*/
+.aboutPage1{
+    padding: 50px 0;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.aboutpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    text-align: center;
+}
+
+.aboutPage1 h1{
+    color: #615EFC;
+    font-size: 3rem;
+}
+
+.aboutPage1 p{
+    font-size: 16px;
+}
+
+.aboutPage2{
+    padding: 50px 0;
+}
+.aboutpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.aboutpage2content2{
+    text-align: center;
+}
+
+.aboutpage2content2 h1{
+    font-size: 3rem;
+}
+
+
+.aboutPage4{
+    padding: 50px 0;
+}
+.aboutpage4{
+    text-align: center;
+    width: 100%;
+}
+
+
+.dean{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+}
+.teacher img{
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+.teacher div{
+    margin: 20px 0;
+}
+.nameTeacher{
+    font-size: 18px;
+    color: black;
+}
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.19);
+}
+
+.teacher1:hover,
+.teacher2:hover,
+.teacher3:hover,
+.teacher4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutPage5{
+    padding: 50px 0;
+}
+.aboutpage5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ClassOfficers{
+    
+}
+.StudentCouncil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: center;
+    
+}
+
+.aboutpage5 img{
+    margin: 20px 0;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+}
+.aboutpage5 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(197, 81, 255, 0.2), 0 6px 20px 0 rgba(206, 43, 255, 0.19);
 }
     /*NONE HERE BROO*/    
 }
@@ -1558,6 +1831,132 @@ footer{
     .news a{
         margin: 10px 0;
     }
+
+
+/*About Page*/
+.aboutPage1{
+    padding: 50px 0;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.aboutpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    text-align: center;
+}
+
+.aboutPage1 h1{
+    color: #615EFC;
+    font-size: 3rem;
+}
+
+.aboutPage1 p{
+    font-size: 16px;
+}
+
+.aboutPage2{
+    padding: 50px 0;
+}
+.aboutpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.aboutpage2content2{
+    text-align: center;
+}
+
+.aboutpage2content2 h1{
+    font-size: 3rem;
+}
+
+
+.aboutPage4{
+    padding: 50px 0;
+}
+.aboutpage4{
+    text-align: center;
+    width: 100%;
+}
+
+
+.dean{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+}
+.teacher img{
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+.teacher div{
+    margin: 20px 0;
+}
+.nameTeacher{
+    font-size: 18px;
+    color: black;
+}
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.19);
+}
+
+.teacher1:hover,
+.teacher2:hover,
+.teacher3:hover,
+.teacher4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutPage5{
+    padding: 50px 0;
+}
+.aboutpage5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ClassOfficers{
+    
+}
+.StudentCouncil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: center;
+    
+}
+
+.aboutpage5 img{
+    margin: 20px 0;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+}
+.aboutpage5 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(197, 81, 255, 0.2), 0 6px 20px 0 rgba(206, 43, 255, 0.19);
+}
 
    
 
@@ -2008,6 +2407,129 @@ footer{
     margin: 10px 0;
 }
 
+/*About Page*/
+.aboutPage1{
+    padding: 50px 0;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.aboutpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    text-align: center;
+}
+
+.aboutPage1 h1{
+    color: #615EFC;
+    font-size: 3rem;
+}
+
+.aboutPage1 p{
+    font-size: 16px;
+}
+
+.aboutPage2{
+    padding: 50px 0;
+}
+.aboutpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.aboutpage2content2{
+    text-align: center;
+}
+
+.aboutpage2content2 h1{
+    font-size: 3rem;
+}
+
+
+.aboutPage4{
+    padding: 50px 0;
+}
+.aboutpage4{
+    text-align: center;
+    width: 100%;
+}
+
+
+.dean{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+}
+.teacher img{
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+.teacher div{
+    margin: 20px 0;
+}
+.nameTeacher{
+    font-size: 18px;
+    color: black;
+}
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.19);
+}
+
+.teacher1:hover,
+.teacher2:hover,
+.teacher3:hover,
+.teacher4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutPage5{
+    padding: 50px 0;
+}
+.aboutpage5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ClassOfficers{
+    
+}
+.StudentCouncil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: center;
+    
+}
+
+.aboutpage5 img{
+    margin: 20px 0;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+}
+.aboutpage5 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(197, 81, 255, 0.2), 0 6px 20px 0 rgba(206, 43, 255, 0.19);
+}
 
 
 
@@ -2480,6 +3002,136 @@ footer{
 }
 .news a{
     margin: 10px 0;
+}
+
+/*About Page*/
+.aboutPage1{
+    padding: 50px 0;
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.aboutpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    text-align: center;
+}
+
+.aboutPage1 h1{
+    color: #615EFC;
+    font-size: 3rem;
+}
+
+.aboutPage1 p{
+    font-size: 16px;
+}
+
+.aboutPage2{
+    padding: 50px 0;
+}
+.aboutpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.aboutpage2content2{
+    text-align: center;
+}
+
+.aboutpage2content2 h1{
+    font-size: 3rem;
+}
+
+
+.aboutPage4{
+    padding: 50px 0;
+}
+.aboutpage4{
+    text-align: center;
+    width: 100%;
+}
+
+
+.dean{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+}
+.dean img{
+    width: 350px;
+}
+.teacher img{
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+.teacher div{
+    margin: 20px 0;
+}
+.nameTeacher{
+    font-size: 18px;
+    color: black;
+}
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.19);
+}
+
+.teacher1:hover,
+.teacher2:hover,
+.teacher3:hover,
+.teacher4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutPage5{
+    padding: 50px 0;
+}
+.aboutpage5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.StudentCouncil div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: center;
+    margin: 6px 0;
+}
+
+
+.overlay div{
+    margin: 0;
+}
+
+.aboutpage5 img{
+    margin: 0;
+    transition: ease-in;
+    transition-duration: .3s;
+    transition-delay: 3ms;
+    cursor: pointer;
+}
+.aboutpage5 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(197, 81, 255, 0.2), 0 6px 20px 0 rgba(206, 43, 255, 0.19);
 }
 
 
